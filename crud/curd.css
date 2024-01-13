@@ -1,0 +1,82 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightskyblue;
+}
+div#cont1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: lightgoldenrodyellow;
+}
+div#cont2 {
+  width: 90%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#insidecont {
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-top: 15px;
+}
+button {
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+ border: 1px;
+ background-color: lightgreen;
+  font-family: sans-serif;
+}
+table.tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  border-spacing: 0;
+  background-color: lightgoldenrodyellow;
+}
+td {
+  width: 80px;
+  height: 100%;
+}
+th {
+  width: 100px;
+  height: 100%;
+}
+input {
+  border: 1px solid;
+  
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+}
